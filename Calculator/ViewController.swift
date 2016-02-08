@@ -68,6 +68,7 @@ class ViewController: UIViewController {
         label.text = String(number)
     }
     
+    
     @IBAction func plus(){
         //plusボタンを押した時に、labelに0が表示される
         label.text = "0"

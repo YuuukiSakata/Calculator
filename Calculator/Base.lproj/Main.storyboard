@@ -89,23 +89,14 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXU-SN-EZA">
                                 <rect key="frame" x="173" y="489" width="30" height="30"/>
                                 <state key="normal" title="-"/>
-                                <connections>
-                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="RIn-VJ-Pbm"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ypv-pd-hwe">
                                 <rect key="frame" x="103" y="549" width="30" height="30"/>
                                 <state key="normal" title="×"/>
-                                <connections>
-                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZE-s4-J9x"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjH-l3-2XB">
                                 <rect key="frame" x="172" y="549" width="30" height="30"/>
                                 <state key="normal" title="÷"/>
-                                <connections>
-                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="b57-bZ-zPS"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHA-lB-7AN">
                                 <rect key="frame" x="103" y="267" width="30" height="30"/>
