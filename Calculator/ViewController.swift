@@ -23,6 +23,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    @IBAction func select1(){
+        number = number*10 + 1
+        label.text = String(number)
+    }
+    
+    @IBAction func select2(){
+        number = number*10 + 2
+        label.text = String(number)
+    }
+    
     @IBAction func select3(){
         number = number*10 + 3
         label.text = String(number)
@@ -33,6 +43,30 @@ class ViewController: UIViewController {
         label.text = String(number)
     }
     
+    @IBAction func select5(){
+        number = number*10 + 5
+        label.text = String(number)
+    }
+    
+    @IBAction func select6(){
+        number = number*10 + 6
+        label.text = String(number)
+    }
+    
+    @IBAction func select7(){
+        number = number*10 + 7
+        label.text = String(number)
+    }
+    
+    @IBAction func select8(){
+        number = number*10 + 8
+        label.text = String(number)
+    }
+    
+    @IBAction func select9(){
+        number = number*10 + 9
+        label.text = String(number)
+    }
     
     @IBAction func plus(){
         //plusボタンを押した時に、labelに0が表示される
