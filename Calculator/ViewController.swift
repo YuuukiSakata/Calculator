@@ -78,9 +78,24 @@ class ViewController: UIViewController {
         number = 0
     }
 
+    @IBAction func minus(){
+        label.text = "0"
+        
+        oparation = 2
+        number2 = number
+        number = 0
+    }
+    
+    @IBAction func clear(){
+        number == 0
+        label.text = String(number)
+    }
+    
     @IBAction func equal(){
         if oparation == 1{
             label.text = String(number + number2)
+        }else if oparation == 2{
+            label.text = String(number2 - number)
         }
     }
     
